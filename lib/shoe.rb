@@ -5,3 +5,10 @@ class Shoe
   def initialize(title)
     @title = title
   end
+
+  def cobble
+    puts "Your shoe is as good as new!"
+  end
+
+  shoe.condition = old
+end 
