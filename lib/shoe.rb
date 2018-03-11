@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
-  
+
   def initialize(title)
     @title = title
   end
@@ -8,4 +8,3 @@ class Shoe
   def title
     @title
   end
-
